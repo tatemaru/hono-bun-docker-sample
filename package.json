@@ -1,0 +1,12 @@
+{
+  "name": "bun-hono-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "bun src/index.ts",
+    "dev": "bun --hot src/index.ts",
+    "build": "bun build src/index.ts --outdir dist"
+  },
+  "dependencies": {
+    "hono": "4.7.10"
+  }
+}
