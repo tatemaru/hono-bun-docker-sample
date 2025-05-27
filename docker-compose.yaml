@@ -1,6 +1,7 @@
 services:
-  app:
+  hono:
     build: .
+    container_name: hono_app
     ports:
       - "3000:3000"
     volumes:
